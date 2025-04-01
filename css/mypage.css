@@ -1,0 +1,64 @@
+@import "./global.css";
+
+.user-component {
+    padding: 20px 10px;
+    flex-direction: column;
+}
+
+.user-component-profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.user-component-id {
+    padding-top: 5px;
+    font-size: 1rem; 
+}
+
+.add-profile-btn {
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    font-size: 4rem;
+    font-weight: 200;
+    color: white;
+}
+
+.continue-watching-imgs img{
+    width: 200px;
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.continue-watching {
+    margin-bottom: 25px;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+.continue-watching-imgs {
+    list-style: none;
+    display: flex;
+    overflow: auto;
+}
+
+.continue-watching-card {
+    background-color: var(--purple);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.continue-watching-header {
+    margin-bottom: 15px;
+}
+
+.continue-watching-imgs li {
+    margin-left: 5px;
+}
+
+.continue-watching-title {
+    display: block;
+    margin: 2px 0;
+}
